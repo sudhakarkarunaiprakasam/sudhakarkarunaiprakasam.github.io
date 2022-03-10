@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://sudhakarkarunaiprakasam.github.io/</loc>
+         <loc>https://sudhakar.blog/</loc>
          <lastmod>2022-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sudhakarkarunaiprakasam.github.io/BookSummaries/</loc>
+         <loc>https://sudhakar.blog/BookSummaries/</loc>
          <lastmod>2022-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sudhakarkarunaiprakasam.github.io/BusinessKit/</loc>
+         <loc>https://sudhakar.blog/BusinessKit/</loc>
          <lastmod>2022-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sudhakarkarunaiprakasam.github.io/OtherEssays/</loc>
+         <loc>https://sudhakar.blog/OtherEssays/</loc>
+         <lastmod>2022-03-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sudhakar.blog/ShittyFirstDraft/</loc>
          <lastmod>2022-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
