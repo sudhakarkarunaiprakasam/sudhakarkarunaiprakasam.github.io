@@ -2,27 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://sudhakar.blog/</loc>
-         <lastmod>2022-03-11</lastmod>
+         <lastmod>2022-03-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sudhakar.blog/BookSummaries/</loc>
-         <lastmod>2022-03-11</lastmod>
+         <lastmod>2022-03-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sudhakar.blog/BusinessKit/</loc>
-         <lastmod>2022-03-11</lastmod>
+         <lastmod>2022-03-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sudhakar.blog/OtherEssays/</loc>
-         <lastmod>2022-03-11</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://sudhakar.blog/ShittyFirstDraft/</loc>
-         <lastmod>2022-03-11</lastmod>
+         <lastmod>2022-03-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
