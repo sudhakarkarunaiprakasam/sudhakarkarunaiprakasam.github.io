@@ -1,3 +1,3 @@
 # Sudhakar's Notebook
 
-My Personal Blog with the help of Jupyter Book and Github Pages.
+My Personal blog hosted in Github Pages [Click Here](https://sudhakarkarunaiprakasam.github.io/).
