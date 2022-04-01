@@ -2,19 +2,18 @@
 
 Welcome to my **Personal Blog**. Feel free to browse around.
 
-## [**Business Survival Kit**](AboutBusinessKit.md)
+It is mostly intended for my Personal Knowledge Management similar to Zettlekasten or Second Brain.
 
-I wanted to an MBA to gain more insights into the business and the world economy. But I can't afford an MBA like most of the people I know. So I'm taking a hands-on approach towards gaining business skills. I love reading and teaching complex stuffs into simpler stories. I want to take that approach towards learning business skills. So here we go.
+## **Notebooks**
 
-I learn as much as could and then I'm going to write them into books. The project is inspired by **Josh Kaufmann**'s [**Personal MBA**](https://personalmba.com/). Writing them into small books with some narrative story is inspired by [**Professor Aswath Damodaran**](https://pages.stern.nyu.edu/~adamodar/)
+This is the notes I'm taking while reading. They are categorized into larger topics.
 
-Current Structure looks like:
-
-0. [About the Project](AboutBusinessKit.md)
-1. [Business Basics](BusinessBasics.md)
-2. [Micro-Economics](MicroEconomics.md)
-3. [Corporate Finance](CorporateFinance.md)
-4. [Macro-Economics](MacroEconomics.md)
-5. [Investing](Investing.md)
+1. [business](business.md)
+2. [economics](economics.md)
+3. [productManagement](productManagement.md)
+4. [communication](communication.md)
+5. [psychology](psychology.md)
+6. [design](design.md)
+7. [skillDevelopment](skillDevelopment.md)
 
 **Note**: If this blog looks odd, It's because I'm taking a hands-on approach. I'm writing entire blog in [Markdown](https://en.wikipedia.org/wiki/Markdown) with the help of [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) and hosting at [GitHub](https://github.com/sudhakarkarunaiprakasam/sudhakarkarunaiprakasam.github.io).
