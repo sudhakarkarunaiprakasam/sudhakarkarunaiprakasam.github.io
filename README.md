@@ -4,7 +4,16 @@ Welcome to my **Personal Blog**. Feel free to browse around.
 
 It is mostly intended for my Personal Knowledge Management similar to Zettlekasten or Second Brain.
 
-## **Reading In Public a.k.a RIP**
+## **Business Kit**
+
+0. [Why](why.md)
+1. [Business Basics](businessBasics.md)
+2. [Micro Economics](microEcon.md)
+3. [Corporate Finance](corpFinance.md)
+4. [Macro Economics](macroEcon.md)
+5. [Investing](investing.md)
+
+## **Book Notes**
 
 This is the notes I'm taking while reading. They are categorized into larger topics.
 
