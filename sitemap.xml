@@ -2,72 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://sudhakar.blog/</loc>
-         <lastmod>2022-04-01</lastmod>
+         <lastmod>2022-04-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sudhakar.blog/business/</loc>
-         <lastmod>2022-04-01</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://sudhakar.blog/businessBasics/</loc>
-         <lastmod>2022-04-01</lastmod>
+         <lastmod>2022-04-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sudhakar.blog/communication/</loc>
-         <lastmod>2022-04-01</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://sudhakar.blog/corpFinance/</loc>
-         <lastmod>2022-04-01</lastmod>
+         <lastmod>2022-04-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sudhakar.blog/design/</loc>
-         <lastmod>2022-04-01</lastmod>
+         <lastmod>2022-04-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sudhakar.blog/economics/</loc>
-         <lastmod>2022-04-01</lastmod>
+         <lastmod>2022-04-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sudhakar.blog/investing/</loc>
-         <lastmod>2022-04-01</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://sudhakar.blog/macroEcon/</loc>
-         <lastmod>2022-04-01</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://sudhakar.blog/microEcon/</loc>
-         <lastmod>2022-04-01</lastmod>
+         <loc>https://sudhakar.blog/essays/</loc>
+         <lastmod>2022-04-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sudhakar.blog/productManagement/</loc>
-         <lastmod>2022-04-01</lastmod>
+         <lastmod>2022-04-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sudhakar.blog/psychology/</loc>
-         <lastmod>2022-04-01</lastmod>
+         <lastmod>2022-04-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sudhakar.blog/skillDevelopment/</loc>
-         <lastmod>2022-04-01</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://sudhakar.blog/why/</loc>
-         <lastmod>2022-04-01</lastmod>
+         <lastmod>2022-04-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
