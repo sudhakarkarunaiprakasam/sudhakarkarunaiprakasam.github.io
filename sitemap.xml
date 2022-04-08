@@ -2,57 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://sudhakar.blog/</loc>
-         <lastmod>2022-04-07</lastmod>
+         <lastmod>2022-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sudhakar.blog/basb/</loc>
-         <lastmod>2022-04-07</lastmod>
+         <lastmod>2022-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sudhakar.blog/bookSummaries/</loc>
-         <lastmod>2022-04-07</lastmod>
+         <lastmod>2022-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sudhakar.blog/deepWork/</loc>
-         <lastmod>2022-04-07</lastmod>
+         <lastmod>2022-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sudhakar.blog/essays/</loc>
-         <lastmod>2022-04-07</lastmod>
+         <lastmod>2022-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sudhakar.blog/navalmanack/</loc>
-         <lastmod>2022-04-07</lastmod>
+         <lastmod>2022-04-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sudhakar.blog/personalMBA/</loc>
+         <lastmod>2022-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sudhakar.blog/quotes/</loc>
-         <lastmod>2022-04-07</lastmod>
+         <lastmod>2022-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sudhakar.blog/scottAdams/</loc>
-         <lastmod>2022-04-07</lastmod>
+         <lastmod>2022-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sudhakar.blog/soGoodTheyCantIgnore/</loc>
-         <lastmod>2022-04-07</lastmod>
+         <lastmod>2022-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sudhakar.blog/takeSmartNotes/</loc>
-         <lastmod>2022-04-07</lastmod>
+         <lastmod>2022-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sudhakar.blog/workingThoughts/</loc>
-         <lastmod>2022-04-07</lastmod>
+         <lastmod>2022-04-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
