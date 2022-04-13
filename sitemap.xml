@@ -11,7 +11,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sudhakar.blog/deepWork/</loc>
+         <loc>https://sudhakar.blog/book_deepWork/</loc>
+         <lastmod>2022-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sudhakar.blog/book_scottAdams/</loc>
+         <lastmod>2022-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sudhakar.blog/book_soGoodTheyCantIgnore/</loc>
+         <lastmod>2022-04-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sudhakar.blog/book_takeSmartNotes/</loc>
          <lastmod>2022-04-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -26,27 +41,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sudhakar.blog/personalMBA/</loc>
-         <lastmod>2022-04-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://sudhakar.blog/quotes/</loc>
-         <lastmod>2022-04-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://sudhakar.blog/scottAdams/</loc>
-         <lastmod>2022-04-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://sudhakar.blog/soGoodTheyCantIgnore/</loc>
-         <lastmod>2022-04-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://sudhakar.blog/takeSmartNotes/</loc>
          <lastmod>2022-04-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
