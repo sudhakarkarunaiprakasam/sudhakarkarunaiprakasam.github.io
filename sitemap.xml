@@ -2,17 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://sudhakar.blog/</loc>
-         <lastmod>2022-06-01</lastmod>
+         <lastmod>2022-06-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sudhakar.blog/dailyBlog/</loc>
-         <lastmod>2022-06-01</lastmod>
+         <loc>https://sudhakar.blog/BookNotes/</loc>
+         <lastmod>2022-06-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sudhakar.blog/essays/</loc>
-         <lastmod>2022-06-01</lastmod>
+         <loc>https://sudhakar.blog/DailyBlog/</loc>
+         <lastmod>2022-06-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sudhakar.blog/Essays/</loc>
+         <lastmod>2022-06-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
