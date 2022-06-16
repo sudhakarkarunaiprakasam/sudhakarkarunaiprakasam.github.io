@@ -1,482 +1,138 @@
-
-<!doctype html>
-<html lang="en" class="no-js">
-  <head>
-    
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width,initial-scale=1">
-      
-        <meta name="description" content="Sudhakar's personal blog">
-      
-      
-      
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
         <link rel="canonical" href="https://sudhakar.blog/DailyJournal/">
-      
-      <link rel="icon" href="../imgs/favicon.png">
-      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.16">
-    
-    
-      
-        <title>Daily Journal - Sudhakar's Notebook</title>
-      
-    
-    
-      <link rel="stylesheet" href="../assets/stylesheets/main.1c3799f8.min.css">
-      
-        
-        <link rel="stylesheet" href="../assets/stylesheets/palette.cc9b2e1e.min.css">
-        
-      
-    
-    
-    
-      
-        
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
-      
-    
-    
-    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
-    
-      
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Blog - Sudhakar's Notebook</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
 
-    
-    
-  </head>
-  
-  
-    
-    
-    
-    
-    
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
-  
-    
-    
-    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
-    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
-    <label class="md-overlay" for="__drawer"></label>
-    <div data-md-component="skip">
-      
-        
-        <a href="#daily-journal" class="md-skip">
-          Skip to content
-        </a>
-      
-    </div>
-    <div data-md-component="announce">
-      
-    </div>
-    
-    
-      
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
 
-<header class="md-header" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="Sudhakar&#39;s Notebook" class="md-header__button md-logo" aria-label="Sudhakar's Notebook" data-md-component="logo">
-      
-  <img src="../imgs/logo.png" alt="logo">
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">Sudhakar's Notebook</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-    </a>
-    <label class="md-header__button md-icon" for="__drawer">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
-    </label>
-    <div class="md-header__title" data-md-component="header-title">
-      <div class="md-header__ellipsis">
-        <div class="md-header__topic">
-          <span class="md-ellipsis">
-            Sudhakar's Notebook
-          </span>
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../MentalModels/" class="nav-link">Mental Models</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Essays/" class="nav-link">Essays</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../BookNotes/" class="nav-link">Notebook</a>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">Blog</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../BookNotes/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" class="nav-link disabled">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="md-header__topic" data-md-component="header-topic">
-          <span class="md-ellipsis">
-            
-              Daily Journal
-            
-          </span>
-        </div>
-      </div>
-    </div>
-    
-    
-    
-      <label class="md-header__button md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
-      </label>
-      <div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
-      <label class="md-search__icon md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
-      </label>
-      <nav class="md-search__options" aria-label="Search">
-        
-        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
         </button>
-      </nav>
-      
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="search-result">
-          <div class="md-search-result__meta">
-            Initializing search
-          </div>
-          <ol class="md-search-result__list"></ol>
-        </div>
-      </div>
     </div>
-  </div>
-</div>
+
     
-    
-  </nav>
-  
-</header>
-    
-    <div class="md-container" data-md-component="container">
-      
-      
-        
-          
-        
-      
-      <main class="md-main" data-md-component="main">
-        <div class="md-main__inner md-grid">
-          
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
             
-              
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
+            <li class="nav-item" data-level="1"><a href="#blog" class="nav-link">Blog</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#13june2022_monday" class="nav-link">13/June/2022_Monday</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#12june2022_sunday" class="nav-link">12/June/2022_Sunday</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#10june2022_friday" class="nav-link">10/June/2022_Friday</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#09june2022_thursday" class="nav-link">09/June/2022_Thursday</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#08june2022_wednesday" class="nav-link">08/June/2022_Wednesday</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#07june2022_tuesday" class="nav-link">07/June/2022_Tuesday</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#06june2022_monday" class="nav-link">06/June/2022_Monday</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#05june2022_sunday" class="nav-link">05/June/2022_Sunday</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#01june2022_wednesday" class="nav-link">01/June/2022_Wednesday</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
 
-
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
-  <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Sudhakar&#39;s Notebook" class="md-nav__button md-logo" aria-label="Sudhakar's Notebook" data-md-component="logo">
-      
-  <img src="../imgs/logo.png" alt="logo">
-
-    </a>
-    Sudhakar's Notebook
-  </label>
-  
-  <ul class="md-nav__list" data-md-scrollfix>
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
-        Home
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../BookNotes/" class="md-nav__link">
-        Notebook
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../WorkingIdeas/" class="md-nav__link">
-        Working Ideas
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Essays/" class="md-nav__link">
-        Essays
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-    
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Daily Journal
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        Daily Journal
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#13june2022_monday" class="md-nav__link">
-    13/June/2022_Monday
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#12june2022_sunday" class="md-nav__link">
-    12/June/2022_Sunday
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#10june2022_friday" class="md-nav__link">
-    10/June/2022_Friday
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#09june2022_thursday" class="md-nav__link">
-    09/June/2022_Thursday
-  </a>
-  
-    <nav class="md-nav" aria-label="09/June/2022_Thursday">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#on-investing" class="md-nav__link">
-    On Investing
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#08june2022_wednesday" class="md-nav__link">
-    08/June/2022_Wednesday
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#07june2022_tuesday" class="md-nav__link">
-    07/June/2022_Tuesday
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#06june2022_monday" class="md-nav__link">
-    06/June/2022_Monday
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#05june2022_sunday" class="md-nav__link">
-    05/June/2022_Sunday
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#01june2022_wednesday" class="md-nav__link">
-    01/June/2022_Wednesday
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-    
-  </ul>
-</nav>
-                  </div>
-                </div>
-              </div>
-            
-            
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#13june2022_monday" class="md-nav__link">
-    13/June/2022_Monday
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#12june2022_sunday" class="md-nav__link">
-    12/June/2022_Sunday
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#10june2022_friday" class="md-nav__link">
-    10/June/2022_Friday
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#09june2022_thursday" class="md-nav__link">
-    09/June/2022_Thursday
-  </a>
-  
-    <nav class="md-nav" aria-label="09/June/2022_Thursday">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#on-investing" class="md-nav__link">
-    On Investing
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#08june2022_wednesday" class="md-nav__link">
-    08/June/2022_Wednesday
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#07june2022_tuesday" class="md-nav__link">
-    07/June/2022_Tuesday
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#06june2022_monday" class="md-nav__link">
-    06/June/2022_Monday
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#05june2022_sunday" class="md-nav__link">
-    05/June/2022_Sunday
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#01june2022_wednesday" class="md-nav__link">
-    01/June/2022_Wednesday
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
-          
-          <div class="md-content" data-md-component="content">
-            <article class="md-content__inner md-typeset">
-              
-                
-
-
-<h1 id="daily-journal">Daily Journal</h1>
+<h1 id="blog">Blog</h1>
 <h2 id="13june2022_monday">13/June/2022_Monday</h2>
 <p>As much as I would like to write these blogs, I'm not happy with where it is going. Writing my thoughts out makes sense, but publishing them in Linkedin and Twitter doesn't. They are headless and wandering too much. It is expected to be so, just that it's not going to be useful for others. So, <a href="../Essays/">Essays</a> are the only things that I'm going to show the people. Anyway all parts of the website is in public view, just that I'm not going to advertise daily.</p>
-<p>The intended workflow for my digital garden is <a href="../BookNotes/">BookNotes</a>, <a href="../WorkingIdeas/">WorkingIdeas</a> and then finally <a href="../Essays/">Essays</a>. This is to mimic the Zettelkasten with Fleeting Notes, Permanent Notes and finally Published works. Will wait and see how this is going to pan out.</p>
+<p>The intended workflow for my digital garden is <a href="../BookNotes/">BookNotes</a>, <a href="../MentalModels/">MentalModels</a> and then finally <a href="../Essays/">Essays</a>. This is to mimic the Zettelkasten with Fleeting Notes, Permanent Notes and finally Published works. Will wait and see how this is going to pan out.</p>
 <p>I'm not happy with managing hundreds of standalone notes in my system, all in one page is easily manageable. The restrictions are there like connecting multiple ideas. Will try to sort out as much as possible. Just that reading Naval Ravikant, Charlie Munger, I expect my models to be simple and easy to maintain for me to use it.</p>
 <p>Sudhakar Karunaiprakasam, 13/June/2022</p>
 <h2 id="12june2022_sunday">12/June/2022_Sunday</h2>
@@ -484,13 +140,13 @@
 <p><strong>"It doesn't take much to feel good about yourself"</strong> -- Jim Carry</p>
 </blockquote>
 <p>Do little things that can add up in the long run. It doesn't take too much to do few small things that make us happy, proud. They do add up, over the weeks and months and once it gathers enough critical value, it will blow up, exponentially.</p>
-<p>Leonardo Da Vinci maintained over 7000 pages of notes and drawings and he finished very few paintings in his lifetime. But all those 7000 pages taken throughout his lifetime made his finished paintings into masterpieces. </p>
+<p>Leonardo Da Vinci maintained over 7000 pages of notes and drawings and he finished very few paintings in his lifetime. But all those 7000 pages taken throughout his lifetime made his finished paintings into masterpieces.</p>
 <p>As Naval Ravikant would say "99% of effort is wasted". But it is very difficult to find out 1% at the beginning. We can find them out only through sticking out neck deeply into the work we are doing. Once we find out the 1% topic, we can let go all others.</p>
 <p>In the long run, all things add up.  Believe in compound effect in all aspects of life.</p>
 <p>Note: Streak is set to 1 as I missed writing yesterday.</p>
 <p>Sudhakar Karunaiprakasam, 12/June/2022</p>
 <h2 id="10june2022_friday">10/June/2022_Friday</h2>
-<p>Nobody likes to change, right. As much as we proclaim about our ability to transform, we don't intentionally do it. It is true at least for me. I hate changes, both positive and negative. I like to stay same place, doing same thing for hours at a stretch and happy doing same thing every day for years. That's a bad thing, I know. </p>
+<p>Nobody likes to change, right. As much as we proclaim about our ability to transform, we don't intentionally do it. It is true at least for me. I hate changes, both positive and negative. I like to stay same place, doing same thing for hours at a stretch and happy doing same thing every day for years. That's a bad thing, I know.</p>
 <p>Being an introvert doesn't do any favour with changing environment. Writing this blog is not so easy for me. Yet, I'm choosing to do so, for the past 6 days. I've started this blog 6 months before. Nobody knows this, even I don't know. I was deleting the blog, changing the fonts, background colour, adding Newsletter etc. Every time I change something, I'll delete everything and start again.</p>
 <p>After lot of changes and 6 months later, I want to stick to the basics. I chose simple and manageable website template I could find. I'm hosting them myself using GitHub Pages.</p>
 <p>I didn't want to complicate my process with lots of plans and schedule. As of now, I'll write about things I'm thinking at the moment of writing and let it be. Posting them in Twitter and Linkedin is just for accountability sake.</p>
@@ -502,9 +158,9 @@
 <h2 id="09june2022_thursday">09/June/2022_Thursday</h2>
 <h3 id="on-investing">On Investing</h3>
 <p>For today's blog I'd like to continue with my discussion about Cal Newport's the people who are most likely to thrive in the digital age, namely investors and superstars in their respective field.</p>
-<p>The two categories of people may look different in the bird's eye view. But they more interconnected if we care to look closely. Technical Superstars are the people who heavily invested in themselves through practice and reaping the rewards at the current time. The investors life is not so glamorous as it looks in the plain sight. Sales people know it is very difficult to extract even 10 Rupees from people, yet Investors we know manage crores. The only way to get this place is by gaining trust and permission from lots of folks. In short, they have to be superstars in the investing space taking years of contrarian bets and win confidence from people. </p>
+<p>The two categories of people may look different in the bird's eye view. But they more interconnected if we care to look closely. Technical Superstars are the people who heavily invested in themselves through practice and reaping the rewards at the current time. The investors life is not so glamorous as it looks in the plain sight. Sales people know it is very difficult to extract even 10 Rupees from people, yet Investors we know manage crores. The only way to get this place is by gaining trust and permission from lots of folks. In short, they have to be superstars in the investing space taking years of contrarian bets and win confidence from people.</p>
 <p>I'm taking Prof. Aswath Damodaran's <a href="https://www.youtube.com/playlist?list=PLUkh9m2Borqne-Uz_yTAr4FbdZu6qKn0q">Corporate Finance</a> class. The most important
-decisions a business have to take are related to Investment, Financing, and Dividend. I'd like to apply these concepts one by one on the individual person. </p>
+decisions a business have to take are related to Investment, Financing, and Dividend. I'd like to apply these concepts one by one on the individual person.</p>
 <p>On Investing, an individual is already investing 20+ years in acquiring the knowledge. But one very crucial distinction between companies and individual is the order of investing.</p>
 <p>For example, a company like Amazon started as a online book store, then they expanded into full blown e-commerce company. Since then they explored and gained foothold in the cloud and media business. Shortly, they specialized first and then only expanded their business to multiple adjacent fields based on their learnings. This is applicable to any modern companies following Lean Principle.</p>
 <p>On contrary, Individuals invest very differently. Out of ~15/16 years of education, we first invest in learning about wide range of things, lot of abstract concepts with very less practical knowledge. At some point, we have to choose one field to specialize, even without understanding the practical applications and have to live with our decision for our entire career. Obviously exceptions are also there, but not enough.</p>
@@ -552,72 +208,81 @@ decisions a business have to take are related to Investment, Financing, and Divi
 <p>Nothing much to say, except I'm starting from scratch for maybe 10th time in these 6 months. It is tiring for me also. I'm having huge imposter syndrome every other day and trying to change something. One behavioral trait I've had since childhood is scraping the unfinished thing and starting from scratch. In office too, when a question came up about correcting the mistakes in the document, I said I'll delete and recreate again. Too bad of a habit in the world of product iteration, incremental improvement, etc.</p>
 <p>This habit is going to hurt me in the long run since the things I want to do now are not possible to recreate that easily. For example, when I take this blog with couple of posts, I don't mind deleting it and rework on it. But once I have more than maybe 10 posts, the loss of them going to be significant. So let me do that thing first. Populate this blog with more posts, such that I cannot lose them.</p>
 <p>For a start, I'm going to blog daily for the month of June. Don't expect high value information on any of them, even after June. For now, the daily blog format is going to be some of the personal and professional things happening that particular day. This is based on Mathew Dicks <em>Homework for Life</em>. Next part is about the things I'm learning about during the day or two. For example, I'm reading about product management recently. I'm going to complete <em>The Lean Startup</em>, <em>The Lean Product Playbook</em> and  a course on <em>Software Product Development</em>. Will see how it goes.</p>
-<p>Sudhakar Karunaiprakasam, 01/June/2022</p>
-
-              
-            </article>
-          </div>
-        </div>
-        
-      </main>
-      
-        <footer class="md-footer">
-  
-    <nav class="md-footer__inner md-grid" aria-label="Footer">
-      
-        
-        <a href="../Essays/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Essays" rel="prev">
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              Essays
+<p>Sudhakar Karunaiprakasam, 01/June/2022</p></div>
             </div>
-          </div>
-        </a>
-      
-      
-    </nav>
-  
-  <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      <div class="md-copyright">
-  
-  
-    Made with
-    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs
-    </a>
-  
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
 </div>
-      
-        <div class="md-social">
-  
-    
-    
-    <a href="https://twitter.com/sudhakar_karnan" target="_blank" rel="noopener" title="Sudhakar Karunaiprakasam on Twitter" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
-    </a>
-  
-</div>
-      
-    </div>
-  </div>
-</footer>
-      
-    </div>
-    <div class="md-dialog" data-md-component="dialog">
-      <div class="md-dialog__inner md-typeset"></div>
-    </div>
-    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
-    
-    
-      <script src="../assets/javascripts/bundle.3a4b43e5.min.js"></script>
-      
-    
-  </body>
+
+    </body>
 </html>
